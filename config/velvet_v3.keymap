@@ -6,6 +6,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#define CNR 0
+#define CDH 1
+#define LWR 2
+#define RSE 3
+#define ADJ 4
+
 / {
   behaviors {
     skq: sticky_key_quick_release {
